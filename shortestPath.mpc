@@ -1,0 +1,18 @@
+project (shortestPath) {
+  exename = shortestPath
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -g -std=c++11
+  }
+
+  Source_Files {
+    main.cpp
+    Mapping.cpp
+    Node.cpp
+  }
+
+  Template_Files {
+
+  }
+}
