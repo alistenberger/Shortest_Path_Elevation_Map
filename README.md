@@ -1,4 +1,6 @@
 
+image files need to be opened in photoshop (or whatever you have that can view .raw files)
+
 Finding the shortest path in a grey-scale elevation map. 
 
 Converts all pixels in the image to Nodes with elevation data gathered from analysis of the unsigned char value at any given pixel. 
